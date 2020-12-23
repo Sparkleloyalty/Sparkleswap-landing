@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sparkleswap Interface">
+  <meta name="author" content="Sparkle Loyalty Team ♥♥♥">
+  <meta name="generator" content="Hugo 0.79.0">
+  <!-- Page title -->
+  <title>SparkleSwap Interface</title>
+  <!-- End Page title -->
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../assets/brand/favicon.png">
+  <!-- End Favicon -->
+
+  <!-- Bootstrap.min.css -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- End Bootstrap.min.css -->
+  <style>
+    a {
+      text-decoration: none !important;
+    }
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+    .btn-secondary {
+      color: #fff;
+      background-color: #40444F;
+      border-color: #40444F;
+    }
+    .btn-primary {
+      color: #fff;
+      background-color: #f786c4;
+      border-color: #f786c4;
+    }
+    .light-blue {
+      color: rgb(23, 162, 184) !important;
+      text-decoration: none !important;
+    }
+    .pink {
+      color: #f786c4 !important;
+      text-decoration: none !important;
+    }
+    .yellow {
+      color: #f1e422 !important;
+      text-decoration: none !important;
+    }
+  </style>
+  <!-- Custom styles for Sparkleswap landing page -->
+  <link href="sparkleswap-landing.css" rel="stylesheet">
+</head>
+<body class="text-center">
+  <main class="Sparkleswap-Landing">
+    <img class="mb-4" src="../assets/brand/SparkleswapLogo.svg" alt="" width="250" height="">
+    <div class=" mb-3"></div>
+    <!-- Emoji svg -->
+    <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+      <g id="emojiContainer">
+        <text id="emoji" x="50%" y="400"> ✨ </text>
+      </g>
+      <g id="hitLines" transform="translate(-10,0)" stroke-width="4" fill="none" stroke="#FFC83D" stroke-miterlimit="10"
+        stroke-linecap="round">
+        <line x1="362.5" y1="400.5" x2="339.5" y2="404.5" />
+        <line x1="361.6" y1="392.32" x2="339.5" y2="386.5" opacity="0.7" />
+        <line x1="457.14" y1="391.53" x2="486.71" y2="382.12" opacity="0.7" />
+        <line x1="456.5" y1="400.5" x2="478.5" y2="404.5" />
+      </g>
+      <g id="shadow">
+        <!-- <rect  width="80" height="4" x="360" y="404" fill="#222" opacity="0.6" /> -->
+        <line x1="360" y1="404" x2="440" y2="404" stroke="#111" stroke-width="4" stroke-linecap="round" />
+      </g>
+    </svg>
+    <!-- End Emoji svg-->
+    <div class='d-flex justify-content-evenly'>
+      <a href='https://app.sparkleswap.finance/#/swap' style="width: 50%">
+        <button class=" btn btn-lg btn-primary" style="width: 90%">Swap</button>
+      </a>
+      <a href='https://app.sparkleswap.finance/#/farm' style="width: 50%">
+        <button class=" btn btn-lg btn-secondary" style="width: 90%">Farm 👨‍🌾</button>
+      </a>
+    </div>
+    <div class="info-box mt-5 ">
+      <p class="links-md mb-1 d-flex justify-content-center"></p>
+      <p class="links-md mb-1 d-flex justify-content-center">Sparkleswap is a decentralized market making protocol
+        powered by uniswap earn ✨ rewards for all trades made on Sparkleswap</p>
+    </div>
+    <div class="bottom-section">
+      <div class='d-flex d-flex justify-content-evenly'>
+        <a href='https://twitter.com/Sparklefinance' style="width: 50%">
+          <p class="light-blue">twitter</p>
+        </a>
+        <a href='https://t.me/Sparkleswapfinance' style="width: 50%">
+          <p class="yellow">telegram</p>
+        </a>
+        <a href='https://github.com/Sparkleloyalty/Sparkleswap-interface' style="width: 50%">
+          <p class="pink">code</p>
+        </a>
+      </div>
+    </div>
+    <footer class=" d-flex d-flex justify-content-center">
+      <p class="mt-4 mb-3 copycat" style="position: absolute; bottom: 15px;">&copy; Sparkleloyaly Team</p>
+    </footer>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src='./js/DrawSVGPlugin.min.js'></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
