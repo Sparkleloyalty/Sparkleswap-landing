@@ -10,6 +10,8 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color:  rgb(20, 29, 40);
+  background-image: radial-gradient(50% 50% at 50% 50%,rgba(247,134,196,0.1) 0%,rgba(44,49,62,0) 100%);
+}
 }
 
 html, input, textarea, button, p {
