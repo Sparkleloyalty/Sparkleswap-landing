@@ -1,0 +1,25 @@
+{
+    "name": "Sparkleswap",
+    "logoURI": "https://sparkleswap.finance/assets/brand/sparkleswap_icon.svg",
+    "keywords": ["defi", "sparkleswap", "uniswap","yield"],
+    "timestamp": "2020-11-23T01:40:34.305Z",
+    "tokens": [
+      {
+        "chainId": 1,
+        "address": "0xa3a7cba479df86c7f866280b90ebc3b25f2371f0",
+        "name": "Sparkleswap Rewards Token",
+        "symbol": "✨",
+        "decimals": 18,
+        "logoURI":"https://sparkleswap.finance/assets/brand/sparkleswap_icon.svg"
+      },
+      {
+        "chainId": 1,
+        "address": "0x4b7ad3a56810032782afce12d7d27122bdb96eff",
+        "name": "Sparkle Loyalty Token",
+        "symbol": "SPRKL",
+        "decimals": 8,
+        "logoURI":"https://assets.coingecko.com/coins/images/7949/thumb/SparkleLoyalty_Icon.png?1597653289"
+      }
+    ],
+    "version": { "major": 0, "minor": 0, "patch": 0 }
+  }
