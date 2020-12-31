@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Sparkleswap_token_icon" transform="translate(-5538 -3663)">
+    <g id="Ellipse_17" data-name="Ellipse 17" transform="translate(5538 3663)" fill="#141d28" stroke="#141d28" stroke-width="1">
+      <circle cx="12" cy="12" r="12" stroke="none"/>
+      <circle cx="12" cy="12" r="11.5" fill="none"/>
+    </g>
+    <g id="SparkleswapLogo" transform="translate(4560 1981.845)">
+      <text id="logo.png" transform="translate(979 1694.155)" fill="#707070" font-size="3" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="0" y="0">✨</tspan></text>
+      <text id="Sparkleswap" transform="translate(983 1694.155)" fill="#fff" font-size="3" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Sparkleswap</tspan></text>
+    </g>
+  </g>
+</svg>
